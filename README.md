@@ -2,7 +2,7 @@
 A python script for downloading clips of satellite images from Planet Labs.
 
 Requirements:
-Python 3 and the usual libraries, also area, xmltodict etc.. Look in the .py file for details. I recomend installing anaconda https://www.anaconda.com/what-is-anaconda/, seting up an environment, and using conda to install any missing packages.
+Python 3 and the usual libraries, also area, xmltodict etc.. Look in the .py file for details. 
 
 Should work on both windows and linux
 
