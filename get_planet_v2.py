@@ -205,6 +205,9 @@ if not df_local.empty:
 	# select images with no local file - these will be ordered
 
 	df_selected = df_combined[ df_combined['file'].isnull() ]
+	
+	# make sure 'id' is present to prevent key errors later
+	df_selected['id'] = df_selected['id_left']
 else:
 	df_selected = df_search
 
