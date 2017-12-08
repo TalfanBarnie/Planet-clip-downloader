@@ -251,7 +251,7 @@ def get_file(r, path, key):
         auth=(key, '')
     )
     
-    
+    print(r.json())
     # check if asset_type exists:
     if 'message' in r.json():
         message = r.json()['message']
