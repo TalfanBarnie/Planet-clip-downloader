@@ -6,7 +6,7 @@
 #
 #    Any questions contact talfanbarnie@gmail.com or https://github.com/TalfanBarnie
 #
-#    This script is not gauranteed to not accidentally consume your entire quota by ordering nonsense.
+#    This script is not guaranteed to not accidentally consume your entire quota by ordering nonsense.
 #
 #    Use at your own risk!
 #
