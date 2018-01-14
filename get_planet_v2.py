@@ -110,11 +110,11 @@ if not df_local.empty:
 			id0 = date_string  + 'RapidEye-' + sat_num
 			return(id0)
 		if r['num bands']=='3':
-			id0 = os.path.split(r['file'])[1].split('.')[0][:-12]
+			id0 = os.path.split(r['file'])[1].split('.')[0][:-12] # this is probably broken, may need to change amount of filename that is trimmed from endd
 			return(id0)
 
 		if r['num bands']=='4':
-			id0 = os.path.split(r['file'])[1].split('.')[0][:-14]
+			id0 = os.path.split(r['file'])[1].split('.')[0][:-19]
 			return(id0)
 
 		return('err')
